@@ -170,14 +170,14 @@ footer, header {
 	margin: 0;
 }
 
-.feedback_column {
+.contact-form_column {
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
 	width: 50%;
 }
 
-.feedback__box {
+.contact-form__box {
 	margin-top: 90px;
 	gap: 30px;
 }
