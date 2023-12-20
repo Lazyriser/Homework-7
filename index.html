@@ -41,10 +41,12 @@
 			<div class="banner__column">
 				<div class="banner__form">
 					<p>Try Your <span>FREE</span> Trial Today</p>
-					<input type="text" placeholder="Name" name="name">
-					<input type="email" placeholder="Email" name="email">
-					<input type="password" placeholder="Password" name="password">
-					<button class="form-button form-button--style2" type="submit">Get Started</button>
+					<form action="#" method="get" class="flex">
+						<input type="text" placeholder="Name" name="name">
+						<input type="email" placeholder="Email" name="email">
+						<input type="password" placeholder="Password" name="password">
+						<button class="form-button form-button--style2" type="submit">Get Started</button>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -333,17 +335,21 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
-			<div class="contact-form__box flex">
-				<div class="contact-form_column">
-					<input type="text" placeholder="Name" name="name">
-					<input type="email" placeholder="Email" name="email">
-					<input type="password" placeholder="Password" name="password">
-				</div>
-				<div class="contact-form_column">
-					<textarea name="message" placeholder="Message"></textarea>
-				</div>
-			</div>
-			<button class="form-button form-button--style2" type="submit">Send Message</button>
+			<div class="contact-form__box ">
+				<form action="#" method="get" class="">
+					<div class="contact-form__wrap flex">
+							<div class="contact-form_column">
+								<input type="text" placeholder="Name" name="name">
+								<input type="email" placeholder="Email" name="email">
+								<input type="password" placeholder="Password" name="password">
+							</div>
+							<div class="contact-form_column">
+								<textarea name="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<button class="form-button form-button--style2" type="submit">Send Message</button>
+					</div>
+				</form>
 		</div>
 	</section>
 

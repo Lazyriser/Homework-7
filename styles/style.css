@@ -177,7 +177,7 @@ footer, header {
 	width: 50%;
 }
 
-.contact-form__box {
+.contact-form__wrap {
 	margin-top: 90px;
 	gap: 30px;
 }
@@ -311,7 +311,7 @@ header .container {
 
 .banner__form {
 	background: #fff;
-	padding: 30px 50px 100px 50px;
+	padding: 30px 50px 75px 50px;
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
@@ -333,6 +333,11 @@ header .container {
 .banner__form span {
 	color: #EC7979;
 	font-family: "Open Sans";
+}
+
+.banner__form form {
+	flex-direction: column;
+	gap: 30px;
 }
 
 .banner__form .form-button {
