@@ -155,6 +155,7 @@ textarea {
 
 input::placeholder, textarea::placeholder {
 	color: #BDBDBD;
+	font-family: "Open Sans";
 }
 
 /* footer */
@@ -237,6 +238,7 @@ header .container {
 	color: #fff;
 	transition: .3s;
 	border-bottom: 1px solid transparent;
+	font-family: "Open Sans";
 }
 
 .header-menu li a:hover {
@@ -330,6 +332,7 @@ header .container {
 
 .banner__form span {
 	color: #EC7979;
+	font-family: "Open Sans";
 }
 
 .banner__form .form-button {
@@ -352,7 +355,7 @@ header .container {
 }
 
 .socials__column:first-child {
-	width: 40%;
+	width: 41%;
 }
 
 .socials__column p {
@@ -361,7 +364,7 @@ header .container {
 }
 
 .socials__column:last-child {
-	width: 60%;
+	width: 59%;
 	align-items: center;
 	gap: 30px;
 }
